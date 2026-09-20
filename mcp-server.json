@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.stocksonchain/stocks-on-chain",
+  "title": "Stocks On Chain",
+  "description": "Read-only tokenized stock data: issuers, chains, contract addresses and corporate actions.",
+  "version": "1.0.0",
+  "websiteUrl": "https://stocksonchain.io/developers/agents",
+  "icons": [
+    {
+      "src": "https://stocksonchain.io/icons/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stocksonchain.io/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.stocksonchain/license": "CC BY 4.0",
+      "io.stocksonchain/licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "io.stocksonchain/publisher": "Gwei, Inc.",
+      "io.stocksonchain/readOnly": true,
+      "io.stocksonchain/authentication": "none",
+      "io.stocksonchain/serverCard": "https://stocksonchain.io/.well-known/mcp.json"
+    }
+  }
+}
