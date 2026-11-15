@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "stocks-on-chain": {
+      "url": "https://stocksonchain.io/mcp"
+    }
+  }
+}
