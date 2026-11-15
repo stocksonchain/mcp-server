@@ -1,0 +1,11 @@
+{
+  "name": "stocks-on-chain",
+  "description": "Read-only data on tokenized stocks: issuers, chains, contract addresses and on-chain corporate actions. Free, no account, no API key.",
+  "version": "1.0.0",
+  "author": { "name": "Gwei, Inc." },
+  "homepage": "https://stocksonchain.io/developers/agents",
+  "repository": "https://github.com/stocksonchain/mcp-server",
+  "license": "CC-BY-4.0",
+  "keywords": ["mcp", "tokenized-stocks", "rwa", "on-chain", "read-only"],
+  "logo": "assets/logo-512.png"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "stocks-on-chain",
+  "version": "1.0.0",
+  "description": "Read-only data on tokenized stocks: issuers, chains, contract addresses and on-chain corporate actions. Free, no account, no API key. Data under CC BY 4.0.",
+  "mcpServers": {
+    "stocks-on-chain": {
+      "httpUrl": "https://stocksonchain.io/mcp"
+    }
+  }
+}

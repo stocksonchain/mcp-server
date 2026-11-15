@@ -39,6 +39,16 @@ curl "https://registry.modelcontextprotocol.io/v0/servers?search=stocksonchain"
 
 `mcp-server.json` in this repository is that registry entry.
 
+## Other clients
+
+This repository is also a Gemini CLI extension and a Cursor plugin. Both point at the same hosted server; nothing runs locally.
+
+```
+gemini extensions install https://github.com/stocksonchain/mcp-server
+```
+
+Cursor reads `.cursor-plugin/plugin.json` and `mcp.json` at the root of this repository.
+
 ## Tools
 
 | Tool | What it answers |
